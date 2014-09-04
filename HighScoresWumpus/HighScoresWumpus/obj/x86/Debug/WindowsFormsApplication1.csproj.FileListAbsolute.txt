@@ -1,0 +1,4 @@
+C:\Users\Tom\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WumpusTest2010.Form2.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WumpusTest2010.HighScores.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
