@@ -13,7 +13,7 @@ HighScoresForm for Wumpus Testing
 <li>Updates the HighScores.txt every press on the UpdateHighScores button (Double clicking&#8594;Double entries)</li>
 <li>Display HighScores opens a new form with the highscores formatted.
 </ul>
-Although it wasn't necessary to create a folder in your documents with the HighScores.txt, it was fun and seemed cooler to run by itself.
+Although it wasn't necessary to create a folder in your documents with the HighScores.txt, I already wrote it and it seemed cooler.
 
 
   
