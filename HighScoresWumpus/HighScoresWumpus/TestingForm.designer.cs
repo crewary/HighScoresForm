@@ -1,6 +1,6 @@
 ﻿namespace WumpusTest2010
 {
-    partial class Form2
+    partial class TestingForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,40 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TestNewFormButton = new System.Windows.Forms.Button();
-            this.UpdateHighScores = new System.Windows.Forms.Button();
+            this.DisplayHighScoresButton = new System.Windows.Forms.Button();
+            this.UpdateHighScoresButton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.returnScoreBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.CalculateScoreButton = new System.Windows.Forms.Button();
             this.tboxName = new System.Windows.Forms.TextBox();
             this.tboxArrows = new System.Windows.Forms.TextBox();
             this.tboxTurns = new System.Windows.Forms.TextBox();
             this.tboxCoins = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // TestNewFormButton
+            // DisplayHighScoresButton
             // 
-            this.TestNewFormButton.Location = new System.Drawing.Point(12, 238);
-            this.TestNewFormButton.Name = "TestNewFormButton";
-            this.TestNewFormButton.Size = new System.Drawing.Size(130, 23);
-            this.TestNewFormButton.TabIndex = 34;
-            this.TestNewFormButton.Text = "Display HighScores";
-            this.TestNewFormButton.UseVisualStyleBackColor = true;
-            this.TestNewFormButton.Click += new System.EventHandler(this.TestNewFormButton_Click_1);
+            this.DisplayHighScoresButton.Location = new System.Drawing.Point(12, 238);
+            this.DisplayHighScoresButton.Name = "DisplayHighScoresButton";
+            this.DisplayHighScoresButton.Size = new System.Drawing.Size(130, 23);
+            this.DisplayHighScoresButton.TabIndex = 34;
+            this.DisplayHighScoresButton.Text = "DisplayHighScores";
+            this.DisplayHighScoresButton.UseVisualStyleBackColor = true;
+            this.DisplayHighScoresButton.Click += new System.EventHandler(this.DisplayHighScoresButton_Click);
             // 
-            // UpdateHighScores
+            // UpdateHighScoresButton
             // 
-            this.UpdateHighScores.Location = new System.Drawing.Point(12, 209);
-            this.UpdateHighScores.Name = "UpdateHighScores";
-            this.UpdateHighScores.Size = new System.Drawing.Size(130, 23);
-            this.UpdateHighScores.TabIndex = 32;
-            this.UpdateHighScores.Text = "UpdateHighScores";
-            this.UpdateHighScores.UseVisualStyleBackColor = true;
-            this.UpdateHighScores.Click += new System.EventHandler(this.UpdateHighScores_Click_1);
+            this.UpdateHighScoresButton.Location = new System.Drawing.Point(12, 209);
+            this.UpdateHighScoresButton.Name = "UpdateHighScoresButton";
+            this.UpdateHighScoresButton.Size = new System.Drawing.Size(130, 23);
+            this.UpdateHighScoresButton.TabIndex = 32;
+            this.UpdateHighScoresButton.Text = "UpdateHighScores";
+            this.UpdateHighScoresButton.UseVisualStyleBackColor = true;
+            this.UpdateHighScoresButton.Click += new System.EventHandler(this.UpdateHighScores_Click);
             // 
             // label6
             // 
@@ -115,15 +115,15 @@
             this.returnScoreBox.Size = new System.Drawing.Size(100, 20);
             this.returnScoreBox.TabIndex = 53;
             // 
-            // button1
+            // CalculateScoreButton
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 20);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "CalculateScore";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.CalculateScoreButton.Location = new System.Drawing.Point(12, 12);
+            this.CalculateScoreButton.Name = "CalculateScoreButton";
+            this.CalculateScoreButton.Size = new System.Drawing.Size(97, 20);
+            this.CalculateScoreButton.TabIndex = 25;
+            this.CalculateScoreButton.Text = "CalculateScore";
+            this.CalculateScoreButton.UseVisualStyleBackColor = true;
+            this.CalculateScoreButton.Click += new System.EventHandler(this.CalculateScoreButton_Click);
             // 
             // tboxName
             // 
@@ -153,26 +153,26 @@
             this.tboxCoins.Size = new System.Drawing.Size(100, 20);
             this.tboxCoins.TabIndex = 21;
             // 
-            // Form2
+            // TestingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 325);
-            this.Controls.Add(this.TestNewFormButton);
-            this.Controls.Add(this.UpdateHighScores);
+            this.Controls.Add(this.DisplayHighScoresButton);
+            this.Controls.Add(this.UpdateHighScoresButton);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.returnScoreBox);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.CalculateScoreButton);
             this.Controls.Add(this.tboxName);
             this.Controls.Add(this.tboxArrows);
             this.Controls.Add(this.tboxTurns);
             this.Controls.Add(this.tboxCoins);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "TestingForm";
+            this.Text = "TestingForm";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -181,15 +181,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button TestNewFormButton;
-        private System.Windows.Forms.Button UpdateHighScores;
+        private System.Windows.Forms.Button DisplayHighScoresButton;
+        private System.Windows.Forms.Button UpdateHighScoresButton;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox returnScoreBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button CalculateScoreButton;
         private System.Windows.Forms.TextBox tboxName;
         private System.Windows.Forms.TextBox tboxArrows;
         private System.Windows.Forms.TextBox tboxTurns;

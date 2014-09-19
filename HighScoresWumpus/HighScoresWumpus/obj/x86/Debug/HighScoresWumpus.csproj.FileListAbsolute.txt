@@ -8,3 +8,9 @@ C:\Users\Tom\documents\visual studio 2010\Projects\HighScoresWumpus\HighScoresWu
 C:\Users\Tom\documents\visual studio 2010\Projects\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\HighScoresWumpus.pdb
 C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\HighScoresWumpus.exe
 C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\HighScoresWumpus.pdb
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\bin\Debug\HighScoresWumpus.exe
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\bin\Debug\HighScoresWumpus.pdb
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\WumpusTest2010.HighScores.resources
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\HighScoresWumpus.csproj.GenerateResource.Cache
+C:\Users\Tom\Documents\GitHub\HighScoresForm\HighScoresWumpus\HighScoresWumpus\obj\x86\Debug\WumpusTest2010.TestingForm.resources

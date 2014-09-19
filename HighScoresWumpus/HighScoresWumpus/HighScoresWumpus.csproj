@@ -46,26 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form2.cs">
+    <Compile Include="TestingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="TestingForm.designer.cs">
+      <DependentUpon>TestingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="HighScore.cs" />
-    <Compile Include="HighScores.cs">
+    <Compile Include="HighScoresDisplayForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HighScores.designer.cs">
-      <DependentUpon>HighScores.cs</DependentUpon>
+    <Compile Include="HighScoresDisplayForm.designer.cs">
+      <DependentUpon>HighScoresDisplayForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="TestingForm.resx">
+      <DependentUpon>TestingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HighScores.resx">
-      <DependentUpon>HighScores.cs</DependentUpon>
+    <EmbeddedResource Include="HighScoresDisplayForm.resx">
+      <DependentUpon>HighScoresDisplayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
